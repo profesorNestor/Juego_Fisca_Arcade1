@@ -338,7 +338,7 @@
     #mobileControls {
       display: none; /* Oculto por defecto, se muestra con JS en móviles */
       position: fixed;
-      bottom: 15px;
+      bottom: 10px; /* AJUSTADO: Ligeramente más abajo */
       left: 50%;
       transform: translateX(-50%);
       z-index: 500;
@@ -416,7 +416,7 @@
         display: block; /* Mostrar controles en pantallas pequeñas */
       }
       #gameCanvas {
-        margin-bottom: 80px; /* Espacio para controles móviles */
+        margin-bottom: 210px; /* AJUSTADO: Más espacio para controles móviles */
       }
     }
 
@@ -451,7 +451,8 @@
         <button id="backToMenuBtn" class="btn">🏠 Menú</button>
       </div>
     </div>
-    <canvas id="gameCanvas"></canvas> </div>
+    <canvas id="gameCanvas"></canvas>
+  </div>
 
   <div id="questionModal" class="modal">
     <div class="modal-content">
